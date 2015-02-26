@@ -1,18 +1,11 @@
-# Boilerplate específico para rodar no Codekit   
+# Bolt ϟ Disparo de e-mails   
+Sistema de disparo de e-mails usando Mandrill  
 
-## Orientações globais   
+## Dependências   
 
-Projeto otimizado para Codekit, com as seguintes features:   
+O que é necessário para disparar?   
 
-- Compass
-- JSHint
-- JSLint
-- Uglify.js
-
-## Plugins inclusos (js/plugin/)
-
-- [API Geográfica](https://bitbucket.org/icomp/api-geogr-fica)
-- Owl Carousel
-- Fancybox
-- HTML5 Shiv
-- Masked Input
+- E-mail do remetente (vai aparecer como quem enviou o e-mail)
+- API Key do Mandrill
+- Conteúdo da mensagem em HTML ou texto simples
+- Lista de e-mails dos destinatários separados por vírgula
