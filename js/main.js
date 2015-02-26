@@ -45,11 +45,7 @@ $('#disparar').click(function(e){
 		url: 'https://mandrillapp.com/api/1.0/messages/send.json',
 		data: JSON.stringify(params),
 		success:function(r){
-			$.each(r, function(d, deliver){
-				if(deliver.status == 'sent'){
-					console.log('foi!');
-				}
-			});
+			$('#disparador').html('<p>E-mails disparados com sucesso. <a href="/">Enviar novamente.</a></p>');
 		}
 	});
 
