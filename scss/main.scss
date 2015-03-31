@@ -35,5 +35,5 @@ button:hover{ @include opacity(0.8); }
 @include placeholder($Texto);
 
 @media screen and(max-width:600px){
-	button{ width:100%; padding:30px 0; }
+	button{ width:100%; padding:25px 0; }
 }
